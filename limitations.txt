@@ -1,0 +1,13 @@
+Limitations and Generalization Concerns
+
+Although the model demonstrates strong performance on the training and validation dataset, its ability to generalize to real-world clinical settings remains uncertain. 
+The dataset used for training consists of curated chest X-ray images that may differ significantly from real hospital data in terms of imaging equipment, resolution, patient demographics, noise, and labeling standards.
+
+Models trained on a single dataset often learn dataset-specific patterns rather than true disease-relevant features.
+As a result, high accuracy on the training or test split does not necessarily translate to reliable performance on unseen data from different hospitals or populations. 
+This phenomenon, commonly referred to as dataset bias, can lead to over-optimistic results and reduced robustness in real-world deployment.
+
+Additionally, the labels in publicly available datasets may contain inaccuracies or inconsistencies, which can further affect the model’s reliability. 
+The model has not been evaluated on an external or independent dataset, and therefore its clinical applicability cannot be claimed.
+
+Future work should focus on validating the model across multiple datasets from different sources, incorporating domain adaptation techniques, and prioritizing clinically relevant metrics such as sensitivity and specificity to better assess real-world performance.

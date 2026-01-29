@@ -1,0 +1,4 @@
+
+we have used the kaggle dataset 
+  here is the link to this dataset:
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
